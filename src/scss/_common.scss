@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+// ============================================= *
+//                                               *
+// Import                                        *
+//                                               *
+// ============================================= */
+@import "assets/bootstrap/bootstrap"; //bootstrap(3.3.7)
+@import "base/bootcanceller"; //Bootstrapのキャンセラー
+@import "base/var"; //変数
+@import "assets/jugosmin"; //YuGochic用省略形
+@import "base/module"; //ベンダープレフィックス等のMixinモジュール
+@import "base/base"; //フォント指定やIE対処など
+
+// ============================================= *
+//                                               *
+// メインコンテンツ                                 *
+//                                               *
+// ============================================= */
+.main {
+	background-color: $bg-color;
+	color: $color;
+    padding: {
+        left: 15px;
+        right: 15px;
+    }
+}
+
+// ============================================= *
+//                                               *
+// フッタ                                         *
+//                                               *
+// ============================================= */
+@import "common/footer";
